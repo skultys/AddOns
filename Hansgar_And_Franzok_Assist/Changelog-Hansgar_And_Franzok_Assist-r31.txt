@@ -1,0 +1,244 @@
+2016-02-10  Tercioo  <Tercioo>
+
+[f79f010c4651] [tip]
+* Hansgar_And_Franzok_Assist.lua:
+
+- fixed the 'remove border' from the stamper icon.
+
+
+2016-01-19  Tercioo  <Tercioo>
+
+[d1963bd45219]
+* Hansgar_And_Franzok_Assist.lua, Libs/DF/cooltip.lua, Libs/DF/fw.lua:
+
+- framework update.
+
+
+2016-01-02  Tercioo  <Tercioo>
+
+[5da06cb420d4]
+* Hansgar_And_Franzok_Assist.lua, Libs/DF/button.lua, Libs/DF/cooltip.lua, Libs/DF/dropdown.lua, Libs/DF/fw.lua, Libs/DF/label.lua, Libs/DF/normal_bar.lua, Libs/DF/panel.lua, Libs/DF/picture.lua, Libs/DF/slider.lua, Libs/DF/split_bar.lua, Libs/DF/textentry.lua:
+
+- framework update.
+
+
+2015-12-18  Tercioo  <Tercioo>
+
+[7523376ecaa3]
+* Hansgar_And_Franzok_Assist.lua, Libs/DF/button.lua, Libs/DF/fw.lua:
+
+- framework update.
+
+
+2015-11-20  Tercio  <Tercio>
+
+[f9601754ab46]
+* Hansgar_And_Franzok_Assist.lua:
+
+- small bug fixes.
+
+
+2015-10-16  Tercio  <Tercio>
+
+[e16b1fc13935]
+* Hansgar_And_Franzok_Assist.lua, Libs/DF/cooltip.lua, Libs/DF/fw.lua, Libs/DF/panel.lua:
+
+- framework update.
+
+
+2015-10-08  Tercio  <Tercio>
+
+[6bb668a41455]
+* Hansgar_And_Franzok_Assist.lua, Libs/DF/fw.lua, Libs/DF/normal_bar.lua, Libs/DF/slider.lua:
+
+- framework update.
+
+
+2015-09-14  Tercio  <Tercio>
+
+[7a285d98b95f]
+* Hansgar_And_Franzok_Assist.lua, Libs/DF/colors.lua, Libs/DF/fw.lua, Libs/DF/normal_bar.lua, Libs/DF/normal_bar.xml:
+
+- framework update.
+
+
+2015-09-08  Tercio  <Tercio>
+
+[52973d00a183]
+* Libs/AceAddon-3.0/AceAddon-3.0.lua, Libs/AceAddon-3.0/AceAddon-3.0.xml, Libs/AceConfig-3.0/AceConfig-3.0.lua, Libs/AceConfig-3.0/AceConfig-3.0.xml, Libs/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.lua, Libs/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.xml, Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua, Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.xml, Libs/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua, Libs/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.xml, Libs/AceConsole-3.0/AceConsole-3.0.lua, Libs/AceConsole-3.0/AceConsole-3.0.xml, Libs/AceDB-3.0/AceDB-3.0.lua, Libs/AceDB-3.0/AceDB-3.0.xml, Libs/AceDBOptions-3.0/AceDBOptions-3.0.lua, Libs/AceDBOptions-3.0/AceDBOptions-3.0.xml, Libs/AceEvent-3.0/AceEvent-3.0.lua, Libs/AceEvent-3.0/AceEvent-3.0.xml, Libs/AceGUI-3.0/AceGUI-3.0.lua, Libs/AceGUI-3.0/AceGUI-3.0.xml, Libs/AceGUI-3.0/widgets/AceGUIContainer-BlizOptionsGroup.lua, Libs/AceGUI-3.0/widgets/AceGUIContainer-DropDownGroup.lua, Libs/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua, Libs/AceGUI-3.0/widgets/AceGUIContainer-InlineGroup.lua, Libs/AceGUI-3.0/widgets/AceGUIContainer-ScrollFrame.lua, Libs/AceGUI-3.0/widgets/AceGUIContainer-SimpleGroup.lua, Libs/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua, Libs/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua, Libs/AceGUI-3.0/widgets/AceGUIContainer-Window.lua, Libs/AceGUI-3.0/widgets/AceGUIWidget-Button.lua, Libs/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua, Libs/AceGUI-3.0/widgets/AceGUIWidget-ColorPicker.lua, Libs/AceGUI-3.0/widgets/AceGUIWidget-DropDown-Items.lua, Libs/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua, Libs/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua, Libs/AceGUI-3.0/widgets/AceGUIWidget-Heading.lua, Libs/AceGUI-3.0/widgets/AceGUIWidget-Icon.lua, Libs/AceGUI-3.0/widgets/AceGUIWidget-InteractiveLabel.lua, Libs/AceGUI-3.0/widgets/AceGUIWidget-Keybinding.lua, Libs/AceGUI-3.0/widgets/AceGUIWidget-Label.lua, Libs/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua, Libs/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua, Libs/AceLocale-3.0/AceLocale-3.0.lua, Libs/AceLocale-3.0/AceLocale-3.0.xml, Libs/LibDBIcon-1.0/LibDBIcon-1.0.lua, Libs/LibDataBroker-1.1/LibDataBroker-1.1.lua, Libs/LibSharedMedia-3.0/LibSharedMedia-3.0.lua, Libs/LibSharedMedia-3.0/lib.xml, Libs/libs.xml:
+
+- framework update.
+
+
+[dbd417f413a8]
+* Hansgar_And_Franzok_Assist.lua, Libs/DF/button.lua, Libs/DF/dropdown.lua, Libs/DF/dropdown.xml, Libs/DF/fw.lua, Libs/DF/label.lua, Libs/DF/normal_bar.lua, Libs/DF/panel.lua, Libs/DF/pictureedit.lua, Libs/DF/slider.lua, Libs/DF/split_bar.lua, Libs/DF/textentry.lua:
+
+- framework update.
+
+
+2015-08-25  Tercio  <Tercio>
+
+[7fef991992f6]
+* Hansgar_And_Franzok_Assist.lua:
+
+- version fix.
+
+
+2015-08-11  Tercio  <Tercio>
+
+[dc1c77254f80]
+* Hansgar_And_Franzok_Assist.lua, Libs/DF/addon.lua, Libs/DF/button.lua, Libs/DF/colors.lua, Libs/DF/cooltip.lua, Libs/DF/dropdown.lua, Libs/DF/fw.lua, Libs/DF/help.lua, Libs/DF/label.lua, Libs/DF/normal_bar.lua, Libs/DF/panel.lua, Libs/DF/picture.lua, Libs/DF/pictureedit.lua, Libs/DF/scrollbar.lua, Libs/DF/slider.lua, Libs/DF/split_bar.lua, Libs/DF/textentry.lua:
+
+- added close button to users panel.
+- framework update.
+
+
+2015-07-18  Tercio  <Tercio>
+
+[215f0dd37a6c]
+* Libs/DF/button.lua, Libs/DF/panel.lua:
+
+library update.
+
+
+2015-06-26  Tercio  <Tercio>
+
+[680465749fc7]
+* Libs/DF/addon.lua, Libs/DF/dropdown.xml, Libs/DF/fw.lua, Libs/DF/panel.lua:
+
+- framework update.
+
+
+2015-06-23  Tercio  <Tercio>
+
+[0c160948ac5e]
+* Hansgar_And_Franzok_Assist.toc, Libs/DF/addon.lua, Libs/DF/dropdown.lua, Libs/DF/fw.lua, Libs/DF/icons.tga, Libs/DF/panel.lua:
+
+- ToC Update.
+
+
+2015-06-08  Tercio  <Tercio>
+
+[d5c8e2c42e04]
+* Hansgar_And_Franzok_Assist.lua:
+
+- Added an options in order to change the size of the dance bar.
+
+
+2015-04-30  Tercio  <Tercio>
+
+[211038c8d073]
+* Hansgar_And_Franzok_Assist.lua:
+
+- Added option to not use the vertical dance bar.
+
+
+[c4e00fefea9c]
+* Hansgar_And_Franzok_Assist.lua:
+
+- Added option to not use the vertical dance bar.
+
+
+2015-04-28  Tercio  <Tercio>
+
+[f635adb94909]
+* Hansgar_And_Franzok_Assist.lua, Libs/DF/panel.lua:
+
+- Added west and east sides for dance bar.
+- Main panel won't close with escape button.
+
+
+2015-04-25  Tercio  <Tercio>
+
+[6dd01dcec75e]
+* Hansgar_And_Franzok_Assist.lua, Libs/DF/slider.lua:
+
+- Lib Update.
+
+
+2015-04-20  Tercio  <Tercio>
+
+[2f09fe4be15c]
+* Hansgar_And_Franzok_Assist.lua, Libs/DF/addon.lua, Libs/DF/all_addons.tga, Libs/DF/background.tga, Libs/DF/border_1.tga, Libs/DF/border_2.tga, Libs/DF/border_3.tga, Libs/DF/button.lua, Libs/DF/button.xml, Libs/DF/colors.lua, Libs/DF/cooltip.lua, Libs/DF/cooltip.xml, Libs/DF/cooltip_background.tga, Libs/DF/dropdown.lua, Libs/DF/dropdown.xml, Libs/DF/feedback_sites.tga, Libs/DF/fw.lua, Libs/DF/help.lua, Libs/DF/icons.tga, Libs/DF/label.lua, Libs/DF/load.xml, Libs/DF/mail.tga, Libs/DF/normal_bar.lua, Libs/DF/normal_bar.xml, Libs/DF/panel.lua, Libs/DF/panel.xml, Libs/DF/picture.lua, Libs/DF/pictureedit.lua, Libs/DF/scrollbar.lua, Libs/DF/slider.lua, Libs/DF/split_bar.lua, Libs/DF/split_bar.xml, Libs/DF/textentry.lua, Libs/DF/textentry.xml, Libs/DF/tutorial_alert.xml, Libs/libs.xml:
+
+Added an Options Panel.
+
+
+2015-04-06  Tercio  <Tercio>
+
+[f1e32be6773e]
+* Hansgar_And_Franzok_Assist.lua:
+
+- fixed stop casting alert.
+
+
+2015-03-22  Tercio  <Tercio>
+
+[070347df4822]
+* Hansgar_And_Franzok_Assist.lua:
+
+- Added stop casting alert for Disrupting Roar.
+- Added slash command /hansgar resetpos.
+- Unlocking the frames now make all they be shown in the screen.
+
+
+2015-03-15  Tercio  <Tercio>
+
+[3a6b062ecaac]
+* Hansgar_And_Franzok_Assist.lua:
+
+- dance bar accuracy check up.
+
+
+2015-03-13  Tercio  <Tercio>
+
+[fe47845b3f17]
+* Hansgar_And_Franzok_Assist.lua:
+
+- frames movable.
+
+
+2015-03-07  Tercio  <Tercio>
+
+[3121ac72fcda]
+* Hansgar_And_Franzok_Assist.lua:
+
+- Added auto facing for safe track feature.
+
+
+2015-03-05  Tercio  <Tercio>
+
+[789bf9e40966]
+* Hansgar_And_Franzok_Assist.lua:
+
+Version v0.6 change log:
+- new command /hansgar users: show who is using the addon in the raid.
+- new command /hansgar lock: lock or unlock the frame.
+- new command /hansgar dance: toggle the dance bar.
+- fixed the cooldown animation.
+
+
+2015-03-02  Tercio  <Tercio>
+
+[1c3534391efb]
+* Hansgar_And_Franzok_Assist.lua, Hansgar_And_Franzok_Assist.toc, Libs/AceComm-3.0/AceComm-3.0.lua, Libs/AceComm-3.0/AceComm-3.0.xml, Libs/AceComm-3.0/ChatThrottleLib.lua, Libs/AceTimer-3.0/AceTimer-3.0.lua, Libs/AceTimer-3.0/AceTimer-3.0.xml, Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua, Libs/CallbackHandler-1.0/CallbackHandler-1.0.xml, Libs/LibStub/LibStub.lua, Libs/LibStub/LibStub.toc, Libs/LibStub/tests/test.lua, Libs/LibStub/tests/test2.lua, Libs/LibStub/tests/test3.lua, Libs/LibStub/tests/test4.lua, Libs/libs.xml:
+
+- Added timeout for stampers.
+
+
+2015-02-24  Tercio  <Tercio>
+
+[4a3ffc2ee399]
+* Hansgar_And_Franzok_Assist.toc:
+
+ToC Update.
+
+
+2015-02-23  Tercio  <Tercio>
+
+[23e19ba2b62c]
+* Hansgar_And_Franzok_Assist.lua:
+
+- Major bug fix.
+
+

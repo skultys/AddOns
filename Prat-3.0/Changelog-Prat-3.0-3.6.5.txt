@@ -1,0 +1,8 @@
+2016-02-07  sylvanaar  <sylvanaar@mindspring.com>
+
+[5da43f3fa291] [3.6.5]
+* modules/PlayerNames.lua, services/chatsections.lua:
+
+Do not store the result of Disabiguate in the PLAYERLINK, it will obviously break it.
+
+

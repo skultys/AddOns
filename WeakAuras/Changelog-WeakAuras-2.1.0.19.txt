@@ -1,0 +1,54 @@
+tag 2.1.0.19
+ad39f464ded44cc7bb75d42ce457f2efd1f4a04b
+Benjamin Staneck <staneck@gmail.com>
+2016-02-10 21:11:39 +0100
+
+
+
+--------------------
+
+Benjamin Staneck:
+	- Update README.md
+	remove WA1 to 2 instructions
+	- change it so that when codereview is already open, clicking "show code" again closes the window
+	- fix a typo, also adjust localizations to match
+	- fix opening code review page when options haven't been opened before
+	- make "Show Code" button translatable
+	- remove OnUpdate script that broke the divider in the config
+Infus:
+	- WeakAurasOptions: Don't show the codereview window again
+	Feels nicer. The user can hit the "show code" button to show
+	the code again anyway.
+	- Add code formatting to Show Code
+	And fix a small copy paste error.
+	- Implement show code for importing
+	Ticket-number: 459
+	- Fix checking for custom code
+	Ticket-number: 459
+	- Improve custom lua code checking
+	By checking more places for custom code, and improving how visible it is.
+Hendrik Leppkes:
+	- Block getglobal from breaking out of the environment
+Infus:
+	- Hide() regions after creation
+	Fixes a regression for
+	Ticket: 156
+	- Rewrite visibility checking
+	In Expand() and Collapse() set a flag region.toShow, which indicates
+	whether the region should be visible. Subsequent calls to Expand() or
+	Collapse() that don't change toShow just return without performing any
+	actions. (That fixes 402). While at that remove toHide as it is the
+	inverse of toShow. Also introduce a region.animatingHide, indicating
+	that a aura is in its hide animation.
+	
+	In the dynamic group simply check for region.toShow || region.animateHide.
+	Since that removes the isVisible() check, this fixes Ticket 453.
+	
+	Also since auras that animate it's hiding are still positioned as
+	visible auras, this fixes 156.
+	
+	Somewhere in this rewrite 454 is fixed too.
+	- Fix DBM trigger with a non empty id and use_id false
+	Namely the icon and progress functions
+	
+	Ticket: 458

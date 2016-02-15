@@ -1,0 +1,23 @@
+## Interface: 60000
+## Title: Eclipse Bar Plus
+## Notes: Improvements to the standard Blizzard Eclipse bar for balance druids. Use /ebp for the config screen.
+## Author: Horinor, Wrug
+## Version: 0.11.1
+## SavedVariables: EclipseBarPlusDB
+## X-Curse-Packaged-Version: 0.11.1
+## X-Curse-Project-Name: Eclipse Bar Plus
+## X-Curse-Project-ID: eclipsebarplus
+## X-Curse-Repository-ID: wow/eclipsebarplus/mainline
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+Locale-enUS.lua
+Locale-deDE.lua
+Locale-frFR.lua
+Locale-koKR.lua
+Locale-exMX.lua
+Locale-ruRU.lua
+
+EclipseBarPlus.xml

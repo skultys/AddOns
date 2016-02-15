@@ -1,0 +1,26 @@
+## Interface: 60200
+## Title: Flash Task Bar
+## Notes: Flashes the taskbar when you are alt-tabbed and queue for raid finder, battleground pops up.
+## SavedVariables: FlashTaskbarDB
+## X-Curse-Packaged-Version: r16
+## X-Curse-Project-Name: Flash Taskbar
+## X-Curse-Project-ID: flash-taskbar
+## X-Curse-Repository-ID: wow/flash-taskbar/mainline
+
+#@no-lib-strip@
+libs\libs.xml
+#@end-no-lib-strip@
+
+locales\enUS.lua
+locales\deDE.lua
+locales\esES.lua
+locales\esMX.lua
+locales\frFR.lua
+locales\itIT.lua
+locales\koKR.lua
+locales\ptBR.lua
+locales\ruRU.lua
+locales\zhCN.lua
+locales\zhTW.lua
+
+FlashTaskBar.lua

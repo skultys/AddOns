@@ -1,0 +1,12 @@
+## Interface: 60200
+## Title: Skada |r[|caaedc99fLeech Trinket|r]
+## Author: wtfblub
+## Version: 1
+## Notes: Adds trinket leech to skada - Modified from LeechTrinketCounter - Original code from Gragagrogog
+## Dependencies: Skada
+## OptionalDeps: LibInspect
+## X-Part-Of: Skada
+
+Libs/LibStub/LibStub.lua
+Libs/LibInspect/LibInspect.lua
+Skada_LeechTrinket.lua

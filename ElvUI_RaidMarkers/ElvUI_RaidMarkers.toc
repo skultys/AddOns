@@ -1,0 +1,28 @@
+## Interface: 60000
+## Author: Lockslap
+## Title: |cff1784d1ElvUI|r Raid Markers
+## Version: 4.24
+## Notes: Adds a small raid marker bar below the minimap.
+## RequiredDeps: ElvUI
+## X-Curse-Packaged-Version: 4.24
+## X-Curse-Project-Name: ElvUI Raid Markers
+## X-Curse-Project-ID: elvui-raid-markers
+## X-Curse-Repository-ID: wow/elvui-raid-markers/mainline
+
+Libraries\LibStub\LibStub.lua
+Libraries\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libraries\AceLocale-3.0\AceLocale-3.0.xml
+
+Locales\enUS.lua
+Locales\deDE.lua
+Locales\esES.lua
+Locales\esMX.lua
+Locales\frFR.lua
+Locales\itIT.lua
+Locales\koKR.lua
+Locales\ptBR.lua
+Locales\ruRU.lua
+Locales\zhCN.lua
+Locales\zhTW.lua
+
+ElvUI_RaidMarkers.lua

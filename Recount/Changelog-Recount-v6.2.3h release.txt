@@ -1,0 +1,21 @@
+------------------------------------------------------------------------
+r1360 | resike | 2016-02-05 00:57:49 +0000 (Fri, 05 Feb 2016) | 1 line
+Changed paths:
+   A /tags/v6.2.3h release (from /trunk:1359)
+
+Tagging as v6.2.3h release
+------------------------------------------------------------------------
+r1359 | Resike | 2016-02-05 00:56:29 +0000 (Fri, 05 Feb 2016) | 1 line
+Changed paths:
+   M /trunk/GUI_Detail.lua
+
+- More tweaks with the summary windows.
+------------------------------------------------------------------------
+r1357 | Resike | 2016-01-26 16:46:26 +0000 (Tue, 26 Jan 2016) | 3 lines
+Changed paths:
+   M /trunk/GUI_Detail.lua
+
+- Tweaked the summary windows to fit the new window size.
+- Added multistrike to the summary window.
+- Some other various fixes and tweaks.
+------------------------------------------------------------------------

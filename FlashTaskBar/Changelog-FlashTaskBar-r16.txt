@@ -1,0 +1,151 @@
+2016-02-10  Tercioo  <Tercioo>
+
+[63c2db0e8f4c] [tip]
+* FlashTaskBar.lua:
+
+- delay time between each flash possible is now 4 seconds, down from 5.
+
+
+2016-01-19  Tercioo  <Tercioo>
+
+[97c09152bb58]
+* libs/DF/button.lua, libs/DF/cooltip.lua, libs/DF/dropdown.lua, libs/DF/fw.lua, libs/DF/label.lua, libs/DF/normal_bar.lua, libs/DF/panel.lua, libs/DF/picture.lua, libs/DF/slider.lua, libs/DF/split_bar.lua, libs/DF/textentry.lua, locales/enUS.lua:
+
+- framework update from v14 to v16.
+- translations update.
+
+
+2015-12-23  Tercioo  <Tercioo>
+
+[0221be6d2111]
+* FlashTaskBar.lua:
+
+- Fixed pull timer label which was showing as brawler's guild.
+
+
+[8926c951a102]
+* FlashTaskBar.lua:
+
+- fixed an issue with sound alerts.
+
+
+2015-12-21  Tercioo  <Tercioo>
+
+[1f4cbdee76dd]
+* FlashTaskBar.lua, FlashTaskBar.toc, libs/DF/button.lua, libs/DF/fw.lua, libs/DF/panel.lua, locales/deDE.lua, locales/enUS.lua, locales/esES.lua, locales/esMX.lua, locales/frFR.lua, locales/itIT.lua, locales/koKR.lua, locales/ptBR.lua, locales/ruRU.lua, locales/zhCN.lua, locales/zhTW.lua, sounds/sound_whip1.ogg:
+
+- added localization.
+- added support to sound effects when a event s fired.
+
+
+2015-12-18  Tercioo  <Tercioo>
+
+[23a0fa97eb71]
+* libs/DF/button.lua, libs/DF/fw.lua:
+
+- framework update from version 12 to 13.
+
+
+2015-11-23  Tercio  <Tercio>
+
+[7ef2a9db943c]
+* FlashTaskBar.lua:
+
+- a better msg with the framework isn't found.
+
+
+2015-11-04  Tercio  <Tercio>
+
+[e468d2ebc13d]
+* FlashTaskBar.lua:
+
+- added brawler's guild.
+
+
+2015-11-03  Tercio  <Tercio>
+
+[826455f6fc3a]
+* FlashTaskBar.lua:
+
+- added queue pet battles.
+- added pvp petbattle invite request.
+- added pvp battle invite request.
+- added warlock summon alert.
+- added world pvp popups like for ashran.
+- added group invite request.
+- added premade group invite ready.
+- added chat channels invite.
+- added trade window
+
+
+2015-10-28  Tercio  <Tercio>
+
+[0093aefd8015]
+* FlashTaskBar.lua:
+
+- added alerto for disconnects.
+- added alert for invites.
+- added alert for trade window.
+- added alert for bags full.
+
+
+2015-10-16  Tercio  <Tercio>
+
+[792647ac21e7]
+* libs/DF/cooltip.lua, libs/DF/fw.lua, libs/DF/normal_bar.lua, libs/DF/panel.lua, libs/DF/slider.lua:
+
+- framework update.
+
+
+2015-09-14  Tercio  <Tercio>
+
+[295a97ca267a]
+* FlashTaskBar.lua, libs/DF/all_addons.tga, libs/DF/colors.lua, libs/DF/fw.lua, libs/DF/normal_bar.lua, libs/DF/normal_bar.xml:
+
+- bug fix.
+- framework update.
+
+
+2015-09-03  Tercio  <Tercio>
+
+[a28904427a54]
+* FlashTaskBar.lua, libs/DF/button.lua, libs/DF/dropdown.lua, libs/DF/dropdown.xml, libs/DF/fw.lua, libs/DF/panel.lua, libs/DF/pictureedit.lua, libs/DF/slider.lua, libs/DF/split_bar.lua, libs/DF/textentry.lua, libs/libs.xml:
+
+- added alert for finished taxi travels.
+- added alert for combat lob.
+- added alert for chat phrases.
+- added alert for rare respaws.
+
+
+2015-08-18  Tercio  <Tercio>
+
+[aecef451c1df]
+* FlashTaskBar.lua, libs/DF/all_addons.tga:
+
+- added blink when the player enters in combat.
+
+
+2015-08-15  Tercio  <Tercio>
+
+[6131d3f65f5d]
+* FlashTaskBar.lua:
+
+- added dbm and bigwigs pull timer alerts.
+
+
+2015-08-14  Tercio  <Tercio>
+
+[b589eff36ee4]
+* FlashTaskBar.lua, FlashTaskBar.toc, libs/AceAddon-3.0/AceAddon-3.0.lua, libs/AceAddon-3.0/AceAddon-3.0.xml, libs/AceComm-3.0/AceComm-3.0.lua, libs/AceComm-3.0/AceComm-3.0.xml, libs/AceComm-3.0/ChatThrottleLib.lua, libs/AceConfig-3.0/AceConfig-3.0.lua, libs/AceConfig-3.0/AceConfig-3.0.xml, libs/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.lua, libs/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.xml, libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua, libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.xml, libs/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua, libs/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.xml, libs/AceConsole-3.0/AceConsole-3.0.lua, libs/AceConsole-3.0/AceConsole-3.0.xml, libs/AceDB-3.0/AceDB-3.0.lua, libs/AceDB-3.0/AceDB-3.0.xml, libs/AceDBOptions-3.0/AceDBOptions-3.0.lua, libs/AceDBOptions-3.0/AceDBOptions-3.0.xml, libs/AceEvent-3.0/AceEvent-3.0.lua, libs/AceEvent-3.0/AceEvent-3.0.xml, libs/AceGUI-3.0/AceGUI-3.0.lua, libs/AceGUI-3.0/AceGUI-3.0.xml, libs/AceGUI-3.0/widgets/AceGUIContainer-BlizOptionsGroup.lua, libs/AceGUI-3.0/widgets/AceGUIContainer-DropDownGroup.lua, libs/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua, libs/AceGUI-3.0/widgets/AceGUIContainer-InlineGroup.lua, libs/AceGUI-3.0/widgets/AceGUIContainer-ScrollFrame.lua, libs/AceGUI-3.0/widgets/AceGUIContainer-SimpleGroup.lua, libs/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua, libs/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua, libs/AceGUI-3.0/widgets/AceGUIContainer-Window.lua, libs/AceGUI-3.0/widgets/AceGUIWidget-Button.lua, libs/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua, libs/AceGUI-3.0/widgets/AceGUIWidget-ColorPicker.lua, libs/AceGUI-3.0/widgets/AceGUIWidget-DropDown-Items.lua, libs/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua, libs/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua, libs/AceGUI-3.0/widgets/AceGUIWidget-Heading.lua, libs/AceGUI-3.0/widgets/AceGUIWidget-Icon.lua, libs/AceGUI-3.0/widgets/AceGUIWidget-InteractiveLabel.lua, libs/AceGUI-3.0/widgets/AceGUIWidget-Keybinding.lua, libs/AceGUI-3.0/widgets/AceGUIWidget-Label.lua, libs/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua, libs/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua, libs/AceLocale-3.0/AceLocale-3.0.lua, libs/AceLocale-3.0/AceLocale-3.0.xml, libs/AceSerializer-3.0/.svn/entries, libs/AceSerializer-3.0/.svn/format, libs/AceSerializer-3.0/.svn/pristine/60/606e6fbdb72ca67d2659397af03c60c0203076d4.svn-base, libs/AceSerializer-3.0/.svn/pristine/71/712f1f3a1256edfbea9eb1bd4d69f80609ae75dd.svn-base, libs/AceSerializer-3.0/.svn/wc.db, libs/AceSerializer-3.0/AceSerializer-3.0.lua, libs/AceSerializer-3.0/AceSerializer-3.0.xml, libs/AceTimer-3.0/AceTimer-3.0.lua, libs/AceTimer-3.0/AceTimer-3.0.xml, libs/CallbackHandler-1.0/CallbackHandler-1.0.lua, libs/CallbackHandler-1.0/CallbackHandler-1.0.xml, libs/DF/addon.lua, libs/DF/all_addons.tga, libs/DF/background.tga, libs/DF/border_1.tga, libs/DF/border_2.tga, libs/DF/border_3.tga, libs/DF/button.lua, libs/DF/button.xml, libs/DF/colors.lua, libs/DF/cooltip.lua, libs/DF/cooltip.xml, libs/DF/cooltip_background.tga, libs/DF/dropdown.lua, libs/DF/dropdown.xml, libs/DF/feedback_sites.tga, libs/DF/fw.lua, libs/DF/help.lua, libs/DF/icons.tga, libs/DF/label.lua, libs/DF/load.xml, libs/DF/mail.tga, libs/DF/math.lua, libs/DF/normal_bar.lua, libs/DF/normal_bar.xml, libs/DF/panel.lua, libs/DF/panel.xml, libs/DF/picture.lua, libs/DF/pictureedit.lua, libs/DF/scrollbar.lua, libs/DF/slider.lua, libs/DF/split_bar.lua, libs/DF/split_bar.xml, libs/DF/textentry.lua, libs/DF/textentry.xml, libs/DF/tutorial_alert.xml, libs/LibDBIcon-1.0/LibDBIcon-1.0.lua, libs/LibDataBroker-1.1/LibDataBroker-1.1.lua, libs/LibSharedMedia-3.0/LibSharedMedia-3.0.lua, libs/LibSharedMedia-3.0/lib.xml, libs/LibStub/LibStub.lua, libs/LibStub/LibStub.toc, libs/LibStub/tests/test.lua, libs/LibStub/tests/test2.lua, libs/LibStub/tests/test3.lua, libs/LibStub/tests/test4.lua, libs/libs.xml:
+
+- added framework to this project.
+
+
+2015-08-01  Tercio  <Tercio>
+
+[3f668f0cc3f4]
+* FlashTaskBar.lua, FlashTaskBar.toc:
+
+- first commit.
+
+

@@ -1,0 +1,307 @@
+------------------------------------------------------------------------
+r981 | funkydude | 2015-10-09 11:17:34 +0000 (Fri, 09 Oct 2015) | 1 line
+Changed paths:
+   A /tags/r981-release (from /trunk:980)
+
+Tagging as r981-release
+------------------------------------------------------------------------
+r980 | nebula169 | 2015-09-27 02:23:57 +0000 (Sun, 27 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Tanks.lua
+   M /trunk/oRA3.lua
+
+Tweak Disband button enabling
+------------------------------------------------------------------------
+r979 | nebula169 | 2015-09-27 02:06:43 +0000 (Sun, 27 Sep 2015) | 2 lines
+Changed paths:
+   M /trunk/locales/enUS.lua
+   M /trunk/modules/Consumables.lua
+   M /trunk/modules/Gear.lua
+   M /trunk/oRA3.lua
+
+Change "Options" button to "Consumable Check" and add a gear icon to open options.
+Consumables: Remove the automatic output from /rabuffs and tweak options
+------------------------------------------------------------------------
+r978 | nebula169 | 2015-09-25 11:09:10 +0000 (Fri, 25 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Durability.lua
+   M /trunk/modules/Gear.lua
+   M /trunk/modules/Latency.lua
+
+Throttle lists again and remove people that drop group
+------------------------------------------------------------------------
+r977 | nebula169 | 2015-09-25 06:40:33 +0000 (Fri, 25 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Gear.lua
+   M /trunk/oRA3.lua
+
+Gear: try to populate the list using inspected data
+------------------------------------------------------------------------
+r976 | nebula169 | 2015-09-25 05:50:58 +0000 (Fri, 25 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Durability.lua
+
+Durability: floor the result, trigger updates when selecting the list
+------------------------------------------------------------------------
+r975 | nebula169 | 2015-09-24 08:22:56 +0000 (Thu, 24 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Latency.lua
+
+Latency: Still use "QueryLag" syncs
+------------------------------------------------------------------------
+r974 | nebula169 | 2015-09-24 02:04:50 +0000 (Thu, 24 Sep 2015) | 2 lines
+Changed paths:
+   M /trunk/modules/Durability.lua
+   M /trunk/modules/Latency.lua
+   M /trunk/oRA3.lua
+
+Add sync compat code for Latency and Durability
+Remove the RequestUpdate sync on group change
+------------------------------------------------------------------------
+r973 | nebula169 | 2015-09-20 20:11:41 +0000 (Sun, 20 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Cooldowns/Cooldowns.lua
+
+Cooldowns: timestamp db so we don't restore cooldowns after the system clock resets
+------------------------------------------------------------------------
+r972 | nebula169 | 2015-09-20 20:11:34 +0000 (Sun, 20 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Rings.lua
+
+Rings: fix the toggle option and show the existing cooldown of your ring when the display opens
+------------------------------------------------------------------------
+r971 | nebula169 | 2015-09-20 02:06:42 +0000 (Sun, 20 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/oRA3.lua
+
+ignore globals and minor tweaks
+------------------------------------------------------------------------
+r970 | nebula169 | 2015-09-19 23:55:34 +0000 (Sat, 19 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Rings.lua
+
+Rings: don't break if GetItemInfo doesn't return the ring name for some reason
+------------------------------------------------------------------------
+r969 | nebula169 | 2015-09-19 23:55:27 +0000 (Sat, 19 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Consumables.lua
+
+Consumables: fix Pandaren food
+------------------------------------------------------------------------
+r968 | funkydude | 2015-09-19 14:05:06 +0000 (Sat, 19 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/libs.xml
+   M /trunk/modules/Durability.lua
+   M /trunk/oRA3.toc
+
+Swap our durability module over to using LibDurability so that it's cross compatible with other addons and doesn't require oRA be installed to use it. Alternatively the user can also install the library as a standalone addon.
+------------------------------------------------------------------------
+r967 | nebula169 | 2015-09-14 19:49:45 +0000 (Mon, 14 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/ReadyCheck.lua
+   M /trunk/modules/Rings.lua
+
+ReadyCheck: update the window before fading out
+------------------------------------------------------------------------
+r966 | nebula169 | 2015-09-14 15:11:49 +0000 (Mon, 14 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Rings.lua
+
+Rings: more combat protection
+------------------------------------------------------------------------
+r965 | nebula169 | 2015-09-14 09:11:07 +0000 (Mon, 14 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/BattleRes.lua
+   M /trunk/modules/Rings.lua
+
+Rings: don't show in battlegrounds
+------------------------------------------------------------------------
+r964 | nebula169 | 2015-09-13 13:40:23 +0000 (Sun, 13 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/ReadyCheck.lua
+
+ReadyCheck: fix spamming not ready on start
+------------------------------------------------------------------------
+r963 | nebula169 | 2015-09-12 23:29:08 +0000 (Sat, 12 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Rings.lua
+   M /trunk/oRA3.lua
+
+Decrease the the size of the options panel a bit
+------------------------------------------------------------------------
+r962 | nebula169 | 2015-09-12 23:16:38 +0000 (Sat, 12 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Loot.lua
+
+Loot: Prevent the module entry from getting disabled in options
+------------------------------------------------------------------------
+r961 | nebula169 | 2015-09-12 23:05:46 +0000 (Sat, 12 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/BattleRes.lua
+   M /trunk/modules/Consumables.lua
+   M /trunk/modules/ReadyCheck.lua
+   M /trunk/modules/Rings.lua
+   M /trunk/oRA3.lua
+
+bump up the module "description" text size
+------------------------------------------------------------------------
+r960 | funkydude | 2015-09-12 22:27:25 +0000 (Sat, 12 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/BattleRes.lua
+   M /trunk/modules/Consumables.lua
+   M /trunk/modules/Cooldowns/Cooldowns.lua
+   M /trunk/modules/GuildRepairs.lua
+   M /trunk/modules/Loot.lua
+   M /trunk/modules/ReadyCheck.lua
+   M /trunk/modules/Rings.lua
+   M /trunk/oRA3.lua
+   M /trunk/oRA3.toc
+
+Use an acegui panel for our main options.
+------------------------------------------------------------------------
+r959 | nebula169 | 2015-09-12 20:36:49 +0000 (Sat, 12 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/ReadyCheck.lua
+
+ReadyCheck: Remove the CHAT_MSG_SYSTEM filter and hook all the chat frames instead
+------------------------------------------------------------------------
+r958 | nebula169 | 2015-09-12 19:41:57 +0000 (Sat, 12 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/locales/enUS.lua
+   M /trunk/modules/Invite.lua
+
+Invite: Allow multiple keywords
+------------------------------------------------------------------------
+r957 | nebula169 | 2015-09-12 18:33:25 +0000 (Sat, 12 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/locales/enUS.lua
+   M /trunk/modules/Invite.lua
+
+Invite: Shift-click a rank to invite only that rank
+------------------------------------------------------------------------
+r956 | nebula169 | 2015-09-12 18:03:12 +0000 (Sat, 12 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/locales/enUS.lua
+   M /trunk/modules/ReadyCheck.lua
+
+ReadyCheck: Relay results based on raid difficulty
+------------------------------------------------------------------------
+r955 | nebula169 | 2015-09-12 17:30:54 +0000 (Sat, 12 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/locales/enUS.lua
+   M /trunk/modules/ReadyCheck.lua
+
+ReadyCheck: filter all the ready check messages and direct print our own
+------------------------------------------------------------------------
+r954 | nebula169 | 2015-09-12 11:34:01 +0000 (Sat, 12 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/BattleRes.lua
+   M /trunk/modules/Rings.lua
+
+disable the toggle if the display isn't enabled
+------------------------------------------------------------------------
+r953 | funkydude | 2015-09-12 11:20:55 +0000 (Sat, 12 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/ReadyCheck.lua
+
+ReadyCheck: Reset the "show window" option and put "oRA" in the title.
+------------------------------------------------------------------------
+r952 | nebula169 | 2015-09-12 10:39:14 +0000 (Sat, 12 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/locales/enUS.lua
+   M /trunk/modules/BattleRes.lua
+   M /trunk/modules/Rings.lua
+
+add an option for BattleRes and Rings to toggle the display for setup outside of a group
+------------------------------------------------------------------------
+r951 | nebula169 | 2015-09-12 10:07:22 +0000 (Sat, 12 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Rings.lua
+
+Rings: increase the size of unlocked drag region and migrate the display position instead of resetting it
+------------------------------------------------------------------------
+r950 | nebula169 | 2015-09-11 10:17:35 +0000 (Fri, 11 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Consumables.lua
+
+Consumables: fix typo
+------------------------------------------------------------------------
+r949 | nebula169 | 2015-09-11 09:41:51 +0000 (Fri, 11 Sep 2015) | 1 line
+Changed paths:
+   A /trunk/.docmeta
+   M /trunk/.pkgmeta
+   M /trunk/modules/Cooldowns/README.md
+
+ignore the READMEs
+------------------------------------------------------------------------
+r948 | nebula169 | 2015-09-11 09:41:44 +0000 (Fri, 11 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Consumables.lua
+
+Consumables: fix player buff caching and don't package the GetRaidBuffInfo code
+------------------------------------------------------------------------
+r947 | nebula169 | 2015-09-10 14:27:33 +0000 (Thu, 10 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/libs.xml
+   M /trunk/locales/enUS.lua
+   A /trunk/modules/Consumables.lua
+   M /trunk/modules/ReadyCheck.lua
+   M /trunk/oRA3.lua
+   M /trunk/oRA3.toc
+
+add Consumable Check module and integrate with Ready Check
+------------------------------------------------------------------------
+r946 | nebula169 | 2015-09-10 14:19:56 +0000 (Thu, 10 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Durability.lua
+   M /trunk/modules/Zone.lua
+
+Show your values in Durability and Zone lists while not in a group
+------------------------------------------------------------------------
+r945 | nebula169 | 2015-09-10 14:19:46 +0000 (Thu, 10 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Rings.lua
+
+Rings: don't truncate help text and change the scale step value to 0.01
+------------------------------------------------------------------------
+r944 | funkydude | 2015-09-10 14:17:38 +0000 (Thu, 10 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Latency.lua
+
+Latency: grab latest LibLatency.
+------------------------------------------------------------------------
+r943 | funkydude | 2015-09-10 13:38:09 +0000 (Thu, 10 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+
+Fix lib path
+------------------------------------------------------------------------
+r942 | funkydude | 2015-09-10 13:19:27 +0000 (Thu, 10 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/libs.xml
+   M /trunk/modules/Latency.lua
+   M /trunk/oRA3.toc
+
+Swap our latency module over to using LibLatency so that it's cross compatible with other addons and doesn't require oRA be installed to use it. Alternatively the user can also install the library as a standalone addon.
+------------------------------------------------------------------------
+r941 | nebula169 | 2015-09-08 23:51:20 +0000 (Tue, 08 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/modules/Rings.lua
+
+Rings: tweak
+------------------------------------------------------------------------
+r940 | nebula169 | 2015-09-07 18:14:48 +0000 (Mon, 07 Sep 2015) | 5 lines
+Changed paths:
+   M /trunk/locales/enUS.lua
+   A /trunk/media/edge2.tga
+   M /trunk/modules/Cooldowns/Container.lua
+   M /trunk/modules/Rings.lua
+
+Rings:
+- handle out of range activations by not showing the duration glow and only show the cooldown edge, not the full spiral
+- add option to announce usage to chat
+- add option to allow clicking the icon to activate your ring
+- add option for orientation and remove the resizable container (position is reset, sorry)
+------------------------------------------------------------------------

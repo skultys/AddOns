@@ -1,0 +1,18 @@
+## Interface: 60200
+## Title: Lib: Recipes
+## Notes: Library providing mappings between trade skill recipes, spells and created items
+## Author: Warmexx [Neighbours]
+## Version: r17-release
+## LoadOnDemand: 1
+## X-Date: 2015-07-26T13:09:48Z
+## X-Donate: PayPal:warmexx AT wow-neighbours DOT com
+## X-Website: http://www.wowace.com/addons/librecipes-1-0
+## X-Category: Library
+## X-License: LGPL v2.1
+## X-Curse-Packaged-Version: r17-release
+## X-Curse-Project-Name: LibRecipes-1.0
+## X-Curse-Project-ID: librecipes-1-0
+## X-Curse-Repository-ID: wow/librecipes-1-0/mainline
+
+LibStub\LibStub.lua
+lib.xml

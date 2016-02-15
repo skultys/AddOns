@@ -1,0 +1,23 @@
+------------------------------------------------------------------------
+r52 | lockslap | 2014-12-25 21:01:26 +0000 (Thu, 25 Dec 2014) | 1 line
+Changed paths:
+   A /tags/4.24 (from /trunk:51)
+
+Tagged as version 4.24.
+------------------------------------------------------------------------
+r51 | lockslap | 2014-12-25 21:00:48 +0000 (Thu, 25 Dec 2014) | 2 lines
+Changed paths:
+   M /trunk/ElvUI_RaidMarkers.lua
+   M /trunk/ElvUI_RaidMarkers.toc
+   M /trunk/Locales/enUS.lua
+
+Fixed bar visibility issues.
+Updated locales.
+------------------------------------------------------------------------
+r49 | lockslap | 2014-12-25 01:26:05 +0000 (Thu, 25 Dec 2014) | 1 line
+Changed paths:
+   M /trunk/ElvUI_RaidMarkers.lua
+   M /trunk/ElvUI_RaidMarkers.toc
+
+Fixed config issue with grayed out options.
+------------------------------------------------------------------------

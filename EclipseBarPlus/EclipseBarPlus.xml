@@ -1,0 +1,7 @@
+<Ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<!-- Get Standalone Libs -->
+
+
+ 	<Include file="EclipseBarPlusFrame.xml"/>
+
+</Ui>
